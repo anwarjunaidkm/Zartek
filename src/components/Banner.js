@@ -58,7 +58,7 @@ const handleClick = (category) => {
   return (
     <>
     <div className="w-full px-4 bg-[#ffffff]">
-      <div className="overflow-x-auto" style={{ scrollbarWidth: "none" }}>
+      <div className="overflow-x-auto scrollbar-hide" style={{ scrollbarWidth: "none" }}>
         <ul className="flex flex-nowrap justify-start text-black space-x-4 p-2">
             {tableMenu[0]?.map((item)=>{
                     return(
