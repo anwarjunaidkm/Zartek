@@ -16,7 +16,8 @@ const Header = () => {
      
     <div className=''>
     
-        <h1>UNI Resto Cafe</h1>
+        {/* <h1>UNI Resto Cafe</h1> */}
+        <h1></h1>
        
 
         
