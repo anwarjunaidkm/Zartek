@@ -7,6 +7,7 @@ export const dataApi = createAsyncThunk(
     "data/dataApi",
     async ()=>{
         const res= await axios.get("https://run.mocky.io/v3/a67edc87-49c7-4822-9cb4-e2ef94cb3099")
+        console.log("res.data //////");
         console.log(res.data);
         return res.data
     }
