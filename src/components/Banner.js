@@ -69,7 +69,7 @@ const handleClick = (category) => {
       if(item.dish_id===dish_id){
         if("count" in item){
 
-         if(item["count" > 0])
+         if(item["count"] > 0)
           item["count"]-=1
           dispatch(decrement(item.dish_id))
 
