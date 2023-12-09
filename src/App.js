@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     //sample
-     //sample
+    
     <Header />
   <Banner />
     </>
