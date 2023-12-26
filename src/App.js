@@ -5,7 +5,7 @@ import Header from './components/Header';
 function App() {
   return (
     <>
-    //sample
+    //samplee
     
     <Header />
   <Banner />
